@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tdms_encode_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tdms_encode_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,425.416 ns"></ZoomStartTime>
+      <ZoomEndTime time="5,730.917 ns"></ZoomEndTime>
+      <Cursor1Time time="5,680.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject type="logic" fp_name="/tdms_encode_tb/implementations_agree">
+      <obj_property name="ElementShortName">implementations_agree</obj_property>
+      <obj_property name="ObjectShortName">implementations_agree</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/pixel_clock">
+      <obj_property name="ElementShortName">pixel_clock</obj_property>
+      <obj_property name="ObjectShortName">pixel_clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/output_tmds">
+      <obj_property name="ElementShortName">output_tmds[9:0]</obj_property>
+      <obj_property name="ObjectShortName">output_tmds[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/output_tmds_reference">
+      <obj_property name="ElementShortName">output_tmds_reference[9:0]</obj_property>
+      <obj_property name="ObjectShortName">output_tmds_reference[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/video_data_enable">
+      <obj_property name="ElementShortName">video_data_enable</obj_property>
+      <obj_property name="ObjectShortName">video_data_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/c0">
+      <obj_property name="ElementShortName">c0</obj_property>
+      <obj_property name="ObjectShortName">c0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/c1">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/input_byte">
+      <obj_property name="ElementShortName">input_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider8" type="divider">
+      <obj_property name="label">A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_instance/stage3_running_dc_bias">
+      <obj_property name="ElementShortName">stage3_running_dc_bias[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stage3_running_dc_bias[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_instance/stage2_running_dc_bias">
+      <obj_property name="ElementShortName">stage2_running_dc_bias[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stage2_running_dc_bias[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_instance/stage2_dc_bias">
+      <obj_property name="ElementShortName">stage2_dc_bias[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stage2_dc_bias[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/tmds_instance/stage2_currently_balanced">
+      <obj_property name="ElementShortName">stage2_currently_balanced</obj_property>
+      <obj_property name="ObjectShortName">stage2_currently_balanced</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/tmds_instance/stage2_output_needs_inversion">
+      <obj_property name="ElementShortName">stage2_output_needs_inversion</obj_property>
+      <obj_property name="ObjectShortName">stage2_output_needs_inversion</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_instance/stage2_encoded">
+      <obj_property name="ElementShortName">stage2_encoded[8:0]</obj_property>
+      <obj_property name="ObjectShortName">stage2_encoded[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_instance/stage2_tdms">
+      <obj_property name="ElementShortName">stage2_tdms[9:0]</obj_property>
+      <obj_property name="ObjectShortName">stage2_tdms[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_reference_instance/cnt_t_3">
+      <obj_property name="ElementShortName">cnt_t_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_t_3[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_reference_instance/cnt_t_2">
+      <obj_property name="ElementShortName">cnt_t_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_t_2[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_reference_instance/dc_bias_2">
+      <obj_property name="ElementShortName">dc_bias_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_2[4:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/tmds_reference_instance/cond_balanced_2">
+      <obj_property name="ElementShortName">cond_balanced_2</obj_property>
+      <obj_property name="ObjectShortName">cond_balanced_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tdms_encode_tb/tmds_reference_instance/cond_not_balanced_2">
+      <obj_property name="ElementShortName">cond_not_balanced_2</obj_property>
+      <obj_property name="ObjectShortName">cond_not_balanced_2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_reference_instance/q_m_2">
+      <obj_property name="ElementShortName">q_m_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">q_m_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tdms_encode_tb/tmds_reference_instance/q_out_2">
+      <obj_property name="ElementShortName">q_out_2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_2[9:0]</obj_property>
+   </wvobject>
+</wave_config>
