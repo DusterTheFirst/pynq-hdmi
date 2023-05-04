@@ -1,4 +1,7 @@
 project/
-vivado.log
-vivado.jou
+vivado*.log
+vivado*.jou
 vivado_pid*.str
+
+ip/*/*
+!ip/hdmi_pipeline/hdl
