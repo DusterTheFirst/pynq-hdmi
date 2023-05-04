@@ -1,2 +1,2 @@
-**/*.tcl linguist-vendored
+*.tcl linguist-vendored
 *.ref.vhd linguist-vendored
