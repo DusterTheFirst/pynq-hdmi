@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module tdms_encode_tb();
+module tmds_encode_tb();
     wire [9:0] output_tmds, output_tmds_reference;
     reg pixel_clock, video_data_enable, c0, c1;
     reg [7:0] input_byte;
