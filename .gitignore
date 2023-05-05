@@ -2,6 +2,8 @@ project/
 vivado*.log
 vivado*.jou
 vivado_pid*.str
+.Xil
 
 ip/*/*
 !ip/hdmi_pipeline/hdl
+# !ip/hdmi_pipeline/hdmi_pipeline.b*
