@@ -5,7 +5,7 @@ cd ..
 vivado -source rebuild.tcl
 ```
 
-to rebuilt project:
+to rebuild project:
 ```sh
 rm -rf project
 vivado -source rebuild.tcl
