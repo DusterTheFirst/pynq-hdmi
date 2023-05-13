@@ -78,6 +78,17 @@ module tmds_encode_tb();
         input_byte = 8'd0;
         #20;#20;#20;#20;
         #20;#20;#20;#20;
+        
+        input_byte = 8'b10000000;
+        while (input_byte > 8'b00000000) begin
+            input_byte = input_byte >> 1;
+            #20;
+        end
+        #20;
+
+        input_byte = 8'd0;
+        #20;#20;#20;#20;
+        #20;#20;#20;#20;
 
         $finish;
 
